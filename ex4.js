@@ -57,10 +57,14 @@ const items = [
 ];
 
 // Usa el método .some para averiguar si existe alguna tarea que contenga el texto "Ballena". Piensa bien que campo deberías comprobar.
-
-console.log(items.some()); //TODO. Resultado esperado: false
+const existeTextoBallena = items.some(tarea => tarea.text.includes("Ballena"));
+console.log(existeTextoBallena); //TODO. Resultado esperado: false
 
 // Ahora usa el método .some para averiguar si existe una tarea etiquetada con un tag "ES6" en alguno de los elementos del array.
+const existeTareaES6 = items.some(tarea => tarea.Tags.includes("ES6"));
 
-console.log(items.some()); //TODO. Resultado esperado: true (la última!)
+console.log(existeTareaES6);
+
+
+// console.log(items.some()); //TODO. Resultado esperado: true (la última!)
 
