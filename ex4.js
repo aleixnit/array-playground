@@ -62,7 +62,6 @@ console.log(existeTextoBallena); //TODO. Resultado esperado: false
 
 // Ahora usa el método .some para averiguar si existe una tarea etiquetada con un tag "ES6" en alguno de los elementos del array.
 const existeTareaES6 = items.some(tarea => tarea.Tags.includes("ES6"));
-
 console.log(existeTareaES6);
 
 
